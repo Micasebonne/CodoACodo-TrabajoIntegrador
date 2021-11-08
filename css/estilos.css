@@ -1,0 +1,123 @@
+/*  Reseteo de estilos  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  Color fondo navbar   */
+.color-fondo {
+    background-color: #353a40;
+}
+
+/*  Estilos imagen de fondo index   */
+.img-index {
+    background-image: url(../imgs/ba1.jpg);
+    padding: 150px 100px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-index::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/*  Estilo Card texto imagen */
+#card-imagen {
+    display: flex;
+    justify-content: flex-end;
+    background-color:transparent;
+    color: white;
+    display: flex;
+}
+
+#card-titulo {
+    font-size: 30px;
+    text-align: right;
+}
+
+#card-cuerpo {
+    font-size: 15px;
+    text-align: right;
+}
+
+.color-green {
+    color: white;
+    background-color: #29a744;
+}
+
+/*  Estilos texto secciones  */
+.divTitulo {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.texto {
+    text-transform: lowercase;
+}
+
+#subrayado {
+    text-decoration: underline dotted;
+}
+
+.color-badge {
+    color: black;
+}
+
+/*  Estilos card Honolulu  */
+#contenedor-cards {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#card-honolulu {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 3%;
+}
+
+.img-honolulu {
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpo-card {
+    font-size: 14px;
+}
+
+/*  Estilos formulario  */
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  Estilo botón formulario  */
+#btn {
+    width: 100%;
+}
+
+.color-verde {
+    color: white;
+    background-color: #96c93e;
+}
+
+/*  Estilo footer  */
+footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #1d4e6c;
+}
